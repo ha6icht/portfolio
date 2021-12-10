@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rolf Karlen">
+        <meta name="description" content="Portfolio-Seite">
+        <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, PHP">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beispiele</title>
+        <link id="stylesheet" href="./app-styles.css" rel="stylesheet">
+        <link id="mode" href="./light.css" rel="stylesheet">
+        <!--<link id="mode" href="./enlightenment.css" rel="stylesheet">-->
+        <!--<link id="mode" href="./dark.css" rel="stylesheet">-->
+    </head>
+    <body>
+        <div id="mode-window">
+            <div id="close-window">
+                <p title="Fenster schliessen">x</p>
+            </div>
+            <div id="screenshots">
+                <div class="screenshot-cell">
+                    <img src="./images/enlightenment.jpg" alt="screenshot enlightenment theme">
+                    <p>Enligthenment</p>
+                    <input id="radio-1" type="radio">
+                </div>
+                <div class="screenshot-cell">
+                    <img src="./images/light.jpg" alt="screenshot light theme">
+                    <p>Light</p>
+                    <input id="radio-2" type="radio">                
+                </div>
+                <div class="screenshot-cell">
+                    <img src="./images/dark.JPG" alt="screenshot dark theme">
+                    <p>Dark</p>        
+                    <input id="radio-3" type="radio">
+                </div>
+            </div>
+            <div id="button-change">
+                <div>
+                    <button id="change">Ändern</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <header>
+                <div class="heading">
+                    <div class="heading-div">
+                        <h1>Beispiele</h1>
+                        <div class="image-link-arrow">
+                            <img id="display-mode" src="./images/mode.png"  alt="change mode" title="Mode ändern">
+                            <a href="./index.html"><div class="left-arrow" title="Zur&uuml;ck zur Hauptseite.">&lt;</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <div class="image">
+                        <img src="./images/screenshotBeispiele.jpg" alt="Screenshot der menuApp">
+                        <!--<img id="photo" src="./images/balmkirchli_adjusted.jpg" alt="Bewerbungsfoto">-->
+                    </div>
+            </header>
+            <main>
+                <section class="synopsis">
+                    <p>
+                        
+                    </p>
+                </section>
+                <section class="contact">
+                    <div class="contact-mail">
+                        <h3>Kontaktieren Sie mich:</h3>
+                        <a href="mailto:rolfkarlen@outlook.com">rolfkarlen@outlook.com</a>
+                    </div>
+                    <div class="follow-up">
+                        <a href="https://twitter.com/KarlenRolf" class="twitter-follow-button" target="_blank"><div class="twitter-icon" title="Rolf Karlen auf Twitter."></div></a>
+                        <a href="https://www.linkedin.com/in/rolf-karlen-5875211b9/" class="linkedin-follow-button" target="_blank"><div class="linkedin-icon" title="Rolf Karlen auf Linkedin."></div></a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; <span id="year"></span> Rolf Karlen</p>
+            </footer>
+        </div>
+        <script>
+            const d = new Date();
+            document.getElementById('year').innerHTML = d.getFullYear();
+        </script>
+        <script src="./app-main.js"></script>
+    </body>
+</html>

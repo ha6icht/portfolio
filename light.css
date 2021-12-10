@@ -1,0 +1,44 @@
+body{
+    background-color: #BA5B3F;
+}
+.heading-div{
+    background-color: 	#5C609F;
+}
+/*.description{
+    background-color: #f3997b;
+}*/
+.image{
+    background-color: #939597;
+}
+.table{
+    background-color: #998456;
+}
+/*main{
+    background-color: #f3997b;
+}*/
+.left{
+    background-color:  #F5DF4D;
+}
+.middle{
+    background-color: #998456;
+}
+.right{
+    background-color: #939597;
+}
+section{
+    background-color: #5C609F;
+}
+section a{
+    color: #000;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+}
+@media screen and (max-width: 820px){
+    .description{
+        background-color: #5C609F;
+    }
+}
