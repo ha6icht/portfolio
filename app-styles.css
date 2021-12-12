@@ -112,7 +112,7 @@ body{
     left: 1.6em;
     font-weight: bold;
     font-size: 2.1em;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 .menu #menu-list{
     position: relative;
@@ -139,6 +139,9 @@ body{
     padding-top: 0.3em;
     padding-right: 0.45em;
     border-bottom: 1px dotted #000000;
+    /*cursor: pointer;*/
+}
+.menu li a{
     cursor: pointer;
 }
 .menu li:hover{
