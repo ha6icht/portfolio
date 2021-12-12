@@ -8,6 +8,18 @@ body{
     font-family: 'Roboto', sans-serif;
     /*background-color: #f3997b;*/
 }
+#index #a-index a::before{
+    content: '\>\00a0\00a0';
+}
+#beispiele #a-beispiele a::before{
+    content: '\>\00a0\00a0';
+}
+#multi #a-multi a::before{
+    content: '\>\00a0\00a0';
+}
+#menuapp #a-menuapp a::before{
+    content: '\>\00a0\00a0';
+}
 #mode-window{
     position: fixed;
     z-index: 1;
@@ -119,7 +131,7 @@ body{
     top: -0.6em;
     display: none;
     right: 3em;
-    width: 10em;
+    width: 10.5em;
     list-style: none;
     padding-inline-start: 0;
     margin-block-start: 0;
