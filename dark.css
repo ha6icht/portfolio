@@ -4,6 +4,12 @@ body{
 /*.description{
     background-color: #f3997b;
 }*/
+#menu-list{
+    background-color: #4E5A61c4;
+}
+li:hover{
+    background-color: #4E5A61;
+}
 .image{
     background-color: #433F3F;
 }
@@ -44,6 +50,10 @@ footer p{
 }
 .heading-div h1{
     font-weight: 500;
+    color: #ffffffa4;
+}
+#menu-list a{
+    font-weight: 300;
     color: #ffffffa4;
 }
 .table{

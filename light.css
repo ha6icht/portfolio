@@ -7,6 +7,12 @@ body{
 /*.description{
     background-color: #f3997b;
 }*/
+#menu-list{
+    background-color: #5C609Fc4;
+}
+li:hover{
+    background-color: #5C609F;
+}
 .image{
     background-color: #939597;
 }

@@ -4,6 +4,12 @@ body{
 /*.description{
     background-color: #f3997b;
 }*/
+#menu-list{
+    background-color: #c2bfb5c4;
+}
+li:hover{
+    background-color: #c2bfb5;
+}
 .image{
     background-color: #8cacd3;
 }
