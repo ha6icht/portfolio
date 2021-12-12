@@ -7,7 +7,7 @@
         <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, PHP">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio von Rolf Karlen</title>
-        <link id="stylesheet" href="./styles.css" rel="stylesheet">
+        <link id="stylesheet" href="./app-styles.css" rel="stylesheet">
         <link id="mode" href="./light.css" rel="stylesheet">
         <!--<link id="mode" href="./enlightenment.css" rel="stylesheet">-->
         <!--<link id="mode" href="./dark.css" rel="stylesheet">-->
@@ -45,11 +45,27 @@
                 <div class="heading">
                     <div class="heading-div">
                         <h1>Portfolio von Rolf Karlen</h1>
-                        <div class="image-link-arrow">
-                            <img id="display-mode" src="./images/mode.png"  alt="change mode" title="Mode ändern">
+                        <!--<img id="display-mode" src="./images/mode.png"  alt="change mode" title="Mode ändern">-->
+                        <div class="image-link-menu">
+                            <div>
+                                <img id="display-mode" src="./images/mode.png"  alt="change mode" title="Mode ändern">
+                                <!--<a href="./index.html"><div class="left-arrow" title="Zur&uuml;ck zur Hauptseite.">&lt;</div></a>-->
+                            </div>
+                            <div class="menu">
+                                <span id="menu-list-open">&#9776;</span>
+                                <ul id="menu-list">
+                                    <li><a href="https://rolfkarlen.ch" title="Zum wissbegierigen Blog">Blog</a></li>
+                                    <li><a href="./index.html" title="Zum Portfolio">Portfolio</a></li>
+                                    <li><a href="./menu-app.html" title="Zur menu App-Seite">menu App</a></li>
+                                    <li><a href="./beispiele.html" title="Zur Beispiele-Seite">Beispiele</a></li>
+                                    <li><a href="./multiplication-table.html" title="Zur Multiplication Table">Multiplication Table</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </header>
+            <main>
                 <div class="description">
                     <div class="image">
                         <img id="photo" src="./images/ich_balmkirchli_adjusted.jpg" alt="Bewerbungsfoto">
@@ -91,8 +107,6 @@
                         </table>
                     </div>
                 </div>
-            </header>
-            <main>
                 <section class="synopsis">
                     <p>Mein Interesse in Web-Design geht auf das Jahr 2003 zurück.
                     Damals erstellte ich zwei Webseiten und legte das Webdesign
