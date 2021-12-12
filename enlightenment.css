@@ -1,6 +1,18 @@
 body{
     background-color: #939597;
 }
+#index #a-index{
+    background-color: #c2bfb5;
+}
+#beispiele #a-beispiele{
+    background-color: #c2bfb5;
+}
+#multi #a-multi{
+    background-color: #c2bfb5;
+}
+#menuapp #a-menuapp{
+    background-color: #c2bfb5;
+}
 /*.description{
     background-color: #f3997b;
 }*/

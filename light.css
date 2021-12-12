@@ -1,6 +1,18 @@
 body{
     background-color: #BA5B3F;
 }
+#index #a-index{
+    background-color: #5C609F;
+}
+#beispiele #a-beispiele{
+    background-color: #5C609F;
+}
+#multi #a-multi{
+    background-color: #5C609F;
+}
+#menuapp #a-menuapp{
+    background-color: #5C609F;
+}
 .heading-div{
     background-color: 	#5C609F;
 }
