@@ -78,14 +78,7 @@ body{
     box-sizing: border-box;
     padding: 15px 0 15px 4px;
 }
-/*.left-arrow{
-    font-size: xx-large;
-    margin-left: 0.8em;
-    /*padding-bottom: 0.8em;*/
-    /*cursor: pointer;
-}*/
 .image-link-menu{
-    /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,46 +96,25 @@ body{
     color: #000;
 }
 .image-link-menu img{
-    position: relative;
     padding-top: 0.6em;
-    left: 2em;
     width: 1.35em;
     height: 1.35em;
-    /*padding-right: 2em;*/
-    /*padding-left: 2em;*/
     cursor: pointer;
 }
 .menu{
-    /*position: relative;*/
-    /*display: inline-block;*/
     position: relative;
-    /*top: 83px;*/
-    /*background-color: rgba(218, 213, 213, 0.6);*/
-    /*text-align: right; */
     height: 30px;
-    /*padding: 5px;*/
     width: 6em;
-    /*vertical-align: middle;*/
 }
 .menu #menu-list-open{
     position: relative;
     top: -0.2em;
     left: 1.6em;
-    /*cursor: pointer;
-    font-size: 1.6em;*/
     font-weight: bold;
-    /*line-height: 30px;
-    vertical-align: text-top;*/
-    /*text-align: left;*/
     font-size: 2.1em;
     cursor: pointer;
 }
 .menu #menu-list{
-    /*position: relative;
-    /*top: 5em;*/
-    /*right: 5em;*/
-    /*display: none;
-    z-index: 3;*/
     position: relative;
     top: -0.6em;
     display: none;
@@ -153,8 +125,7 @@ body{
     margin-block-start: 0;
     margin-block-end: 0;
     text-align: right;
-    /*margin-right: 100%;*/
-    background-color: rgba(218, 213, 213);
+    /*background-color: rgba(218, 213, 213);*/
     z-index: 3;
 }
 .menu #menu-list-open:hover+#menu-list{
@@ -187,8 +158,16 @@ body{
     /*background-color: #f3997b;*/
     margin-top: 2px;
 }
-.image img{
+.image-article img{
     width: 600px;
+    /*background-color: #8f99cd;*/
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 14px;
+}
+.image img{
+    width: 327px;
     /*background-color: #8f99cd;*/
     display: flex;
     justify-content: center;
@@ -330,6 +309,9 @@ footer p{
     /*.description{
         background-color: white;
     }*/
+    main a img{
+        width: 100%;
+    }
     .synopsis{
         width: 100%;
     }
