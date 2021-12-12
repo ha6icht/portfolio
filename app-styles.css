@@ -8,14 +8,26 @@ body{
     font-family: 'Roboto', sans-serif;
     /*background-color: #f3997b;*/
 }
+#index #a-index a{
+    font-weight: bold;
+}
 #index #a-index a::before{
     content: '\>\00a0\00a0';
+}
+#beispiele #a-beispiele a{
+    font-weight: bold;
 }
 #beispiele #a-beispiele a::before{
     content: '\>\00a0\00a0';
 }
+#multi #a-multi a{
+    font-weight: bold;
+}
 #multi #a-multi a::before{
     content: '\>\00a0\00a0';
+}
+#menuapp #a-menuapp a{
+    font-weight: bold;
 }
 #menuapp #a-menuapp a::before{
     content: '\>\00a0\00a0';
