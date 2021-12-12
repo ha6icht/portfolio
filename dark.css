@@ -10,6 +10,9 @@ body{
 li:hover{
     background-color: #4E5A61;
 }
+.image-article{
+    background-color: #433F3F;   
+}
 .image{
     background-color: #433F3F;
 }
