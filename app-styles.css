@@ -349,7 +349,10 @@ footer p{
         width: 1.35em;
         height: 1.35em;
         /*padding-right: 12px;*/
-        margin-top: -1.5em;
+        margin-top: 0;
+    }
+    .menu #menu-list-open{
+        margin-top: 0;
     }
     .menu #menu-list{
         width: 9.8em;
