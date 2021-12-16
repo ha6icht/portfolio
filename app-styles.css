@@ -119,11 +119,18 @@ body{
     text-decoration: none;
     color: #000;
 }
-.image-link-menu img{
+/*.image-link-menu img{
     padding-top: 0.6em;
     width: 1.35em;
     height: 1.35em;
     cursor: pointer;
+}*/
+.image-link-menu #display-mode{
+    /*padding-top: 0.6em;*/
+    width: 1.35em;
+    height: 1.35em;
+    cursor: pointer;
+    font-size: 2.3em;
 }
 .menu{
     position: relative;
@@ -132,10 +139,10 @@ body{
 }
 .menu #menu-list-open{
     position: relative;
-    top: -0.2em;
+    top: -0.35em;
     left: 1.6em;
     font-weight: bold;
-    font-size: 2.1em;
+    font-size: 2.3em;
     /*cursor: pointer;*/
 }
 .menu #menu-list{
