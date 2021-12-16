@@ -352,10 +352,11 @@ footer p{
         margin-top: 0;
     }
     .menu #menu-list-open{
-        top: 0;
+        top: -0.2em;
         margin-top: 0;
     }
     .menu #menu-list{
+        top: -0.2em;
         width: 9.8em;
     }
     .menu li{
