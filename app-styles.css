@@ -147,9 +147,9 @@ body{
 }
 .menu #menu-list{
     position: relative;
-    top: -0.55em;
+    top: -1em;
     display: none;
-    right: 3em;
+    right: 3.2em;
     width: 10.5em;
     list-style: none;
     padding-inline-start: 0;
@@ -167,7 +167,7 @@ body{
 }
 .menu li{
     min-height: 1.6em;
-    padding-top: 0.3em;
+    padding-top: 0.2em;
     padding-right: 0.45em;
     border-bottom: 1px dotted #000000;
     /*cursor: pointer;*/
@@ -349,7 +349,7 @@ footer p{
         width: 1.5em;
         height: 1.5em;
         /*padding-right: 12px;*/
-        margin-top: -0.6em;
+        margin-top: -0.55em;
     }
     .menu #menu-list{
         width: 9.8em;
