@@ -8,28 +8,28 @@ body{
     font-family: 'Roboto', sans-serif;
     /*background-color: #f3997b;*/
 }
-#index #a-index a{
+#index #a-index{
     font-weight: bold;
 }
-#index #a-index a::before{
+#index #a-index span::before{
     content: '\>\00a0\00a0';
 }
-#beispiele #a-beispiele a{
+#beispiele #a-beispiele{
     font-weight: bold;
 }
-#beispiele #a-beispiele a::before{
+#beispiele #a-beispiele span::before{
     content: '\>\00a0\00a0';
 }
-#multi #a-multi a{
+#multi #a-multi{
     font-weight: bold;
 }
-#multi #a-multi a::before{
+#multi #a-multi span::before{
     content: '\>\00a0\00a0';
 }
-#menuapp #a-menuapp a{
+#menuapp #a-menuapp{
     font-weight: bold;
 }
-#menuapp #a-menuapp a::before{
+#menuapp #a-menuapp span::before{
     content: '\>\00a0\00a0';
 }
 #mode-window{
@@ -170,11 +170,11 @@ body{
     padding-top: 0.2em;
     padding-right: 0.45em;
     border-bottom: 1px dotted #000000;
-    /*cursor: pointer;*/
-}
-.menu li a{
     cursor: pointer;
 }
+/*.menu li{
+    cursor: pointer;
+}*/
 .menu li:hover{
     display: block;
 }
