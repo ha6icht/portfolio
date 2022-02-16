@@ -328,11 +328,38 @@ footer{
     padding: 4px;
 }
 footer p{
+    display: flex;
+    justify-content:space-between;
     box-sizing: border-box;
-    width: 600px;
+    min-width: 600px;
     font-size: x-small;
     padding-left: 16px;
+    padding-right: 16px;
     /*color: white;*/
+}
+footer p #text-left{
+    /*width: 60px;*/
+    text-align: start;
+    /*cursor: pointer;*/
+}
+footer p #text-right{
+    /*width: 60px;*/
+    text-align: end;
+    
+}
+footer p #lang-de{
+    cursor: pointer;
+}
+footer p #lang-de:hover{
+    color: #d3d3d3e3;
+    /*background-blend-mode: overlay;*/
+}
+footer p #lang-en{
+    cursor: pointer;
+}
+footer p #lang-en:hover{
+    color: #d3d3d3e3;
+    /*background-blend-mode: overlay;*/
 }
 @media screen and (max-width: 820px){
     .heading-div{
