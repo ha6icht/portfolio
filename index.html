@@ -14,7 +14,6 @@
         <!--<link id="mode" href="./dark.css" rel="stylesheet">-->
     </head>
     <body id="index">
-        <script src="./changeLanguage.js"></script>
         <div id="mode-window">
             <div id="close-window">
                 <p title="Fenster schliessen">x</p>
@@ -46,7 +45,7 @@
             <header>
                 <div class="heading">
                     <div class="heading-div">
-                        <h1>Portfolio von Rolf Karlen</h1>
+                        <h1 id="header-title">Portfolio von Rolf Karlen</h1>
                         <!--<img id="display-mode" src="./images/mode.png"  alt="change mode" title="Mode ändern">-->
                         <!--<div class="image-link-menu">
                             <div>
@@ -76,61 +75,59 @@
                         <img id="photo" src="./images/ich_balmkirchli_adjusted.jpg" alt="Bewerbungsfoto">
                         <!--<img id="photo" src="./images/balmkirchli_adjusted.jpg" alt="Bewerbungsfoto">-->
                     </div>
-                    <div id="german" class="table">
+                    <div class="table">
                         <table>
                             <thead>
                                 <tr>
-                                    <td><strong>Steckbrief</strong></td>
+                                    <!--Steckbrief || Personal Character-->
+                                    <td><strong><span id="personal-character"></span></strong></td>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Vorname:</td>
-                                    <td>Rolf</td>
+                                    <!--Vorname || Firstname-->
+                                    <td id="firstname-heading"></td>
+                                    <td id="firstname">Rolf</td>
                                 </tr>
                                 <tr>
-                                    <td>Name:</td>
-                                    <td>Karlen</td>
+                                    <!--Nachname || Lastname-->
+                                    <td id="lastname-heading"></td>
+                                    <td id="lastname">Karlen</td>
                                 </tr>
                                 <tr>
-                                    <td>Alter:</td>
+                                    <!--Alter || Age-->
+                                    <td id="age-heading"></td>
                                     <td><span id="year-old"></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Wohnhaft:</td>
-                                    <td>Bern</td>
+                                    <!--Wohnhaft || resident-->
+                                    <td id="resident-heading"></td>
+                                    <td id="resident">Bern</td>
                                 </tr>
                                 <tr>
-                                    <td>Ausbildung:</td>
-                                    <td>Werkzeugmacher EFZ</td>
+                                    <!--Ausbildung || Apprenticeship-->
+                                    <td id="apprenticeship-heading"></td>
+                                    <!--Werkzeugmacher || Toolmaker VET Diploma-->
+                                    <td id="apprenticeship"></td>
                                 </tr>
                                 <tr>
-                                    <td>Hobbies:</td>
-                                    <td>Fitness, Kochen, Videospiele</td>
+                                    <td id="hobby-heading">Hobbies:</td>
+                                    <!--Fitness, Kochen, Videospiele || Fitness, Cooking, Gaming-->
+                                    <td id="hobby"></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <section class="synopsis">
-                    <p>Mein Interesse in Web-Design geht auf das Jahr 2003 zurück.
-                    Damals erstellte ich zwei Webseiten und legte das Webdesign
-                    wieder auf Eis. Seit einem Jahr befasse ich mich nun wieder
-                    eingehend mit dem Erstellen von Webseiten. Mit dem Web
-                    Development Online Lehrgang von codecademy.com brachte
-                    ich mir die Grundlagen zu HTML, CSS, Bash, Git,
-                    relationale Datenbanken und vertieftes Wissen in
-                    JavaScript bei. Diese Seite soll Ihnen meine seit einem
-                    Jahr laufende Aneignung der erwähnten Webtechnologien näherbringen.</p>
+                    <p id="synopsis-text"></p>
                 </section>
                 <section class="pages">
                     <div class="page left">
                         <a href="./menu-app.html">
                             <div>
                                 <h3>menuApp</h3>
-                                <p>Diese Webseite soll einem Benutzer beim Erstellen eines
-                                wöchentlichen Menüplans helfen. Die Webapp ist im
-                                JavaScript Framework React geschrieben.</p>
+                                <p id="page-left"></p>
                             </div>
                         </a>
                     </div>
@@ -138,9 +135,7 @@
                         <a href="./beispiele.html">
                             <div>
                                 <h3>Beispiele</h3>
-                                <p>Auf der Webseite Beispiele stelle ich meine kleinen Webapps
-                                vor. Die Seite ist mithilfe von HTML, CSS,
-                                JavaScript und PHP entstanden.</p>
+                                <p id="page-middle"></p>
                             </div>
                         </a>
                     </div>
@@ -148,16 +143,14 @@
                         <a href="./multiplication-table.html">
                             <div>
                                 <h3>Multipication Table</h3>
-                                <p>Multiplication Table ist eine Seite zum Üben der
-                                Multiplikations-Reihen. Die Webapp ist im
-                                JavaScript Framework React geschrieben.</p>
+                                <p id="page-right"></p>
                             </div>
                         </a>
                     </div>
                 </section>
                 <section class="contact">
                     <div class="contact-mail">
-                        <h3>Kontaktieren Sie mich:</h3>
+                        <h3 id="contact-heading">Kontaktieren Sie mich:</h3>
                         <a href="mailto:rolfkarlen@outlook.com">rolfkarlen@outlook.com</a>
                     </div>
                     <div class="follow-up">
@@ -184,5 +177,6 @@
             yearOld.innerHTML = calculate_age(new Date(1978, 02, 28));
         </script>
         <script src="./main.js"></script>
+        <script src="./changeLanguageIndex.js"></script>
     </body>
 </html>
