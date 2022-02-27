@@ -44,7 +44,7 @@ else{
     apprenticeship.innerHTML = 'Toolmaker VET Diploma';
     hobby.innerHTML = 'Fitness, Cooking, Gaming';
     synopsisText.innerHTML = 'My interest in web design dates back to 2003. At that time I created two websites and put the web design on hold again. For a year now I have been dealing with the creation of websites again. With the web development online course from codecademy.com, I taught myself the basics of HTML, CSS, Bash, Git, relational databases and in-depth knowledge of JavaScript. This page is intended to bring you closer to my acquisition of the mentioned web technologies, which has been going on for a year.';
-    pageLeft.innerHTML = 'This webpage is intended to help a user create a weekly menu plan. The web app is written in JavaScript Framework React.';
+    pageLeft.innerHTML = 'This webpage is intended to help a user create a weekly menu plan. The web app is written in the JavaScript Framework React.';
     pageMiddle.innerHTML = 'On the website examples I present my webapps. The site is made using HTML, CSS, JavaScript and PHP.';
     pageRight.innerHTML = 'Multiplication Table is a site for practicing the multiplication series. The web app is written in the JavaScript Framework React.';
     contactHeading.innerHTML = 'Contact me:';
