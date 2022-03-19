@@ -22,6 +22,9 @@ body{
 li:hover{
     background-color: #4E5A61;
 }
+.mode{
+    padding-top: 0.15em;
+}
 .image-article{
     background-color: #433F3F;   
 }
@@ -43,6 +46,9 @@ li:hover{
 .right{
     background-color: #36465E;
 }
+.heading{
+    background-color: #4E5A61;
+}
 .heading-div{
     background-color: #4E5A61;
 }
@@ -63,7 +69,7 @@ footer p{
         background-color: #4E5A61;
     }
 }
-.heading-div h1{
+.heading-div{
     font-weight: 500;
     color: #ffffffa4;
 }
