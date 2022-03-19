@@ -470,13 +470,13 @@ footer p #lang-en:hover{
     }
 }
 @media screen and (max-width: 540px){
-    .image-link-menu #display-mode{
+    /*.image-link-menu #display-mode{*/
         /*width: 1.35em;*/
         /*height: 1.35em;*/
         /*padding-right: 12px;*/
-        padding-top: 0.25em;
+        /*padding-top: 0.25em;*/
         /*font-size: 1.8em;*/
-    }
+    /*}*/
     .menu #menu-list{
         top: 4.5em;
         /*width: 10.5em;*/
