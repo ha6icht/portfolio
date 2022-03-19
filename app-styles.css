@@ -490,7 +490,7 @@ footer p #lang-en:hover{
     .image-article img{
         /*width: 100%;*/
         position: relative;
-        /*top: 0.5em;*/
+        top: 2.5em;
     }
     .synopsis{
         /*width: 100%;*/
