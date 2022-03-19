@@ -1,0 +1,107 @@
+body{
+    background-color: #C9B9AF;
+}
+#index #a-index{
+    background-color: #A38C76;
+}
+#beispiele #a-beispiele{
+    background-color: #A38C76;
+}
+#multi #a-multi{
+    background-color: #A38C76;
+}
+#menuapp #a-menuapp{
+    background-color: #A38C76;
+}
+/*.description{
+    background-color: #f3997b;
+}*/
+#menu-list{
+    background-color: #A38C76C4;
+}
+li:hover{
+    background-color: #A38C76;
+}
+.image-article{
+    background-color: #A38C76;
+}
+.image{
+    background-color: #B0AFC9;
+}
+.table{
+    background-color: #929496;
+}
+/*main{
+    background-color: #f3997b;
+}*/
+.left{
+    background-color:  #9390FC;
+}
+.middle{
+    background-color: #B0AFC9;
+}
+.right{
+    background-color: #929496;
+}
+.heading{
+    background-color: #A38C76;
+}
+.heading-div{
+    background-color: #A38C76;
+}
+section{
+    background-color: #A38C76;
+}
+section a{
+    color: black;
+}
+footer{
+    background-color: #B0AFC9;
+}
+footer p{
+    color: #000;
+}
+@media screen and (max-width: 820px){
+    .description{
+        background-color: #c2bfb5;
+    }
+}
+.heading-div{
+    /*font-weight: 500;*/
+    color: #000;
+}
+#menu-list a{
+    /*font-weight: 300;*/
+    color: #000;
+}
+.table{
+    /*font-weight: 300;*/
+    color: #000;
+}
+/*.table strong{
+    font-weight: 400;
+}*/
+.synopsis{
+    /*font-weight: 300;*/
+    color: #000;
+}
+.page p{
+    /*font-weight: 300;*/
+    color: #000;
+}
+.page h3{
+    /*font-weight: 500;*/
+    color: #000;
+}
+.contact h3{
+    /*font-weight: 500;*/
+    color: #000;
+}
+.contact a{
+    /*font-weight: 300;*/
+    color: #000;
+}
+footer p{
+    /*font-weight: 300;*/
+    color: #000;
+}
