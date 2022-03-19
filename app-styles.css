@@ -437,7 +437,7 @@ footer p #lang-en:hover{
     .description{
         /*background-color: white;*/
         position: relative;
-        top: 0.8em;
+        top: 1em;
     }
     .image-article img{
         width: 100%;
@@ -485,7 +485,7 @@ footer p #lang-en:hover{
     .description{
         /*background-color: white;*/
         position: relative;
-        top: 2.4em;
+        top: 2.5em;
     }
     .image-article img{
         /*width: 100%;*/
