@@ -149,7 +149,7 @@ header{
     user-select: none;
 }
 .image-link-menu #display-mode{
-    padding-top: 0.35em;
+    /*padding-top: 0.35em;*/
     /*width: 1.35em;*/
     /*height: 1.35em;*/
     /*display: inline-block;*/
