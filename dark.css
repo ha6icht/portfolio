@@ -6,7 +6,7 @@ a{
     color: #d4d4d4;
 }
 a:hover{
-    color: #d9d9d9;
+    color: #fff;
 }
 #index #a-index{
     background-color: #4E5A61;
@@ -105,9 +105,9 @@ footer{
     font-weight: 300;
     /*color: #d4d4d4;*/
 }
-.contact a:hover{
-    color: #d9d9d9;
-}
+/*.contact a:hover{*/
+    /*color: #d9d9d9;*/
+/*}*/
 footer p{
     font-weight: 300;
     /*color: #d4d4d4;*/
