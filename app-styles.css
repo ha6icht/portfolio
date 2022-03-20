@@ -431,11 +431,11 @@ footer p #lang-en:hover{
         /*top: -0.1em;*/
         /*margin-top: 0;*/
     /*}*/
-    .menu #menu-list{
-        top: 3.6em;
+    /*.menu #menu-list{*/
+        /*top: 2.9em;*/
         /*width: 10.5em;*/
-        right: 0.5em;
-    }
+        /*right: 0.5em;*/
+    /*}*/
     /*.menu li{*/
         /*margin-right: 0;*/
         /*height: auto;*/
@@ -483,11 +483,11 @@ footer p #lang-en:hover{
         /*padding-top: 0.25em;*/
         /*font-size: 1.8em;*/
     /*}*/
-    .menu #menu-list{
-        top: 4.5em;
+    /*.menu #menu-list{*/
+        /*top: 4.5em;*/
         /*width: 10.5em;*/
         /*right: 0.5em;*/
-    }
+    /*}*/
     main{
         position: relative;
         top: 0;
