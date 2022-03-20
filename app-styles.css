@@ -129,7 +129,7 @@ header{
 }*/
 .image-link-menu a{
     text-decoration: none;
-    color: #000;
+    /*color: #000;*/
 }
 /*.image-link-menu img{
     padding-top: 0.6em;
@@ -314,9 +314,9 @@ section a{
     text-decoration: none;
     /*color: black;*/
 }
-section a:hover{
-    color: #0000007f;
-}
+/*section a:hover{*/
+    /*color: #0000007f;*/
+/*}*/
 .contact-mail a{
     margin-top: 0.3em;
 }
