@@ -1,5 +1,12 @@
 body{
     background-color: #C9B9AF;
+    color: #000;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: #1a1a1a;
 }
 #index #a-index{
     background-color: #A38C76;
@@ -65,43 +72,4 @@ footer p{
     .description{
         background-color: #C9B9AF;
     }
-}
-.heading-div{
-    /*font-weight: 500;*/
-    color: #000;
-}
-#menu-list a{
-    /*font-weight: 300;*/
-    color: #000;
-}
-.table{
-    /*font-weight: 300;*/
-    color: #000;
-}
-/*.table strong{
-    font-weight: 400;
-}*/
-.synopsis{
-    /*font-weight: 300;*/
-    color: #000;
-}
-.page p{
-    /*font-weight: 300;*/
-    color: #000;
-}
-.page h3{
-    /*font-weight: 500;*/
-    color: #000;
-}
-.contact h3{
-    /*font-weight: 500;*/
-    color: #000;
-}
-.contact a{
-    /*font-weight: 300;*/
-    color: #000;
-}
-footer p{
-    /*font-weight: 300;*/
-    color: #000;
 }
