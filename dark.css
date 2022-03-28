@@ -26,7 +26,7 @@ a:hover{
 #menu-list{
     background-color: #4E5A61c4;
 }
-li:hover{
+a li:hover{
     background-color: #4E5A61;
 }
 .image-article{
@@ -41,13 +41,13 @@ li:hover{
 .pages{
     background-color: #262B37;
 }
-.left{
+.page .left{
     background-color:  #433F3F;
 }
-.middle{
+.page .middle{
     background-color: #414349;
 }
-.right{
+.page .right{
     background-color: #36465E;
 }
 .heading{
