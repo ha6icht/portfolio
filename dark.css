@@ -41,13 +41,13 @@ a li:hover{
 .pages{
     background-color: #262B37;
 }
-.page .left{
+.page.left{
     background-color:  #433F3F;
 }
-.page .middle{
+.page.middle{
     background-color: #414349;
 }
-.page .right{
+.page.right{
     background-color: #36465E;
 }
 .heading{
