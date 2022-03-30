@@ -5640,18 +5640,18 @@ function () {
       active: true,
       cookieExists: false,
       cookieVersion: 1,
-      modalMainTextMoreLink: null,
-      barTimeout: 5000,
+      //modalMainTextMoreLink: null,
+      //barTimeout: 5000,
       theme: {
-        barColor: '#2C7CBF',
+        /*barColor: '#2C7CBF',
         barTextColor: '#FFF',
         barMainButtonColor: '#FFF',
         barMainButtonTextColor: '#2C7CBF',
         modalMainButtonColor: '#4285F4',
-        modalMainButtonTextColor: '#FFF'
+        modalMainButtonTextColor: '#FFF'*/
       },
       language: {
-        current: 'de',
+        /*current: 'de',
         locale: {
           en: {
             barMainText: 'This website uses cookies to ensure you get the best experience on our website.',
@@ -5692,7 +5692,7 @@ function () {
             on: 'An',
             off: 'Aus'
           },
-        }
+        }*/
       },
       categories: {},
       services: {}
