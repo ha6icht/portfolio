@@ -65,6 +65,14 @@ section{
 footer{
     background-color: #36465E;
 }
+footer #lang-de:hover{
+    color: #d3d3d3e3;
+    /*background-blend-mode: overlay;*/
+}
+footer #lang-en:hover{
+    color: #d3d3d3e3;
+    /*background-blend-mode: overlay;*/
+}
 @media screen and (max-width: 820px){
     .description{
         background-color: #262B37;
