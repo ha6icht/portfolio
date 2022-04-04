@@ -392,17 +392,17 @@ footer p #text-right{
 footer #lang-de{
     cursor: pointer;
 }
-footer #lang-de:hover{
-    color: #d3d3d3e3;
+/*footer #lang-de:hover{
+    color: #d3d3d3e3;*/
     /*background-blend-mode: overlay;*/
-}
+/*}*/
 footer #lang-en{
     cursor: pointer;
 }
-footer #lang-en:hover{
-    color: #d3d3d3e3;
+/*footer #lang-en:hover{
+    color: #d3d3d3e3;*/
     /*background-blend-mode: overlay;*/
-}
+/*}*/
 @media screen and (max-width: 1400px){
     .container{
         width: 100%;
