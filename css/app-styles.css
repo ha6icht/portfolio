@@ -330,7 +330,7 @@ section a:hover{
     margin-top: 1.7em;
 }
 .twitter-follow-button .twitter-icon{
-    background-image: url("./images/icon-1978126.png");
+    background-image: url("../images/icon-1978126.png");
     background-size: auto;
     background-position: 0 0;
     width: 2.3em;
@@ -339,7 +339,7 @@ section a:hover{
     border-radius: 0.19em;
 }
 .linkedin-follow-button .linkedin-icon{
-    background-image: url('./images/icon-1978126.png');
+    background-image: url('../images/icon-1978126.png');
     background-size: auto;
     background-position: -7.6em 0;
     width: 2.3em;
