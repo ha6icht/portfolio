@@ -389,17 +389,17 @@ footer p #text-right{
     text-align: end;
     
 }
-footer p #lang-de{
+footer #lang-de{
     cursor: pointer;
 }
-footer p #lang-de:hover{
+footer #lang-de:hover{
     color: #d3d3d3e3;
     /*background-blend-mode: overlay;*/
 }
-footer p #lang-en{
+footer #lang-en{
     cursor: pointer;
 }
-footer p #lang-en:hover{
+footer #lang-en:hover{
     color: #d3d3d3e3;
     /*background-blend-mode: overlay;*/
 }
