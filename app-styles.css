@@ -369,7 +369,7 @@ footer{
 }
 footer p{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     box-sizing: border-box;
     width: 600px;
     font-size: x-small;
