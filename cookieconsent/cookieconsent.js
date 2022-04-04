@@ -8,17 +8,23 @@
 
 // eslint-disable-next-line no-global-assign
 parcelRequire = (function (modules, cache, entry, globalName) {
+  console.log('parcelRequire: ');
   // Save the require from previous bundle to this closure if any
   var previousRequire = typeof parcelRequire === 'function' && parcelRequire;
+  console.log('previousRequire: ',previousRequire);
   var nodeRequire = typeof require === 'function' && require;
+  console.log('nodeRequire: ',nodeRequire);
 
   function newRequire(name, jumped) {
+    console.log('cache[name]: ',cache[name]);
     if (!cache[name]) {
+      console.log('modules[name]: ',modules[name])
       if (!modules[name]) {
         // if we cannot find the module within our internal map or
         // cache jump to the current global require ie. the last bundle
         // that was added to the page.
         var currentRequire = typeof parcelRequire === 'function' && parcelRequire;
+        console.log('currentRequire: ',currentRequire);
         if (!jumped && currentRequire) {
           return currentRequire(name, true);
         }
@@ -42,7 +48,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
       }
 
       localRequire.resolve = resolve;
+      console.log('localRequire.resolve: ',localRequire.resolve);
+      //console.log('resolve: ',resolve)
+      
       localRequire.cache = {};
+      console.log('localRequire.cache: ',localRequire.cache);
 
       var module = cache[name] = new newRequire.Module(name);
 
@@ -76,9 +86,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
       module.exports = exports;
     }, {}];
   };
+  console.log('newRequire.register: ',newRequire.register);
 
   for (var i = 0; i < entry.length; i++) {
+    console.log('entry[i], i: ',entry[i],',',i);
     newRequire(entry[i]);
+    //console.log('newRequire(entry[i]): ',newRequire.entry[i]);
   }
 
   if (entry.length) {
@@ -115,7 +128,10 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 },{}],"2uHg":[function(require,module,exports) {
 var hasOwnProperty = {}.hasOwnProperty;
+
 module.exports = function (it, key) {
+  console.log('it: ',it);
+  console.log('hasOwnProperty.call(it, key): ',hasOwnProperty.call(it, key));
   return hasOwnProperty.call(it, key);
 };
 
