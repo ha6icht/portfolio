@@ -472,7 +472,7 @@ footer #lang-en:hover{
         top: 0;
         /*height: 1.5em;*/
     }
-    footer p{
+    footer div{
         min-width: 100%;
     }
 }
