@@ -9,18 +9,18 @@ const changeTheme = () => {
         mode.href = './css/basic.css';//'./enlightenment.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
-        displayMode.innerHTML = '&#9728;';
+        displayMode.innerHTML = 'light_mode';
     } else if(localStorage.getItem('theme') === 'dark'){
         mode.href = './css/dark.css';
         if(bodyId === 'index') photo.src = './images/balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Basic Theme';
-        displayMode.innerHTML = '&#9680;'; 
+        displayMode.innerHTML = 'dark_mode'; 
     } else {
         localStorage.setItem('theme', 'basic');
         mode.href = './css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
-        displayMode.innerHTML = '&#9728;';
+        displayMode.innerHTML = 'light_mode';
     }
 }
 
@@ -32,18 +32,18 @@ displayMode.addEventListener('click', () => {
         mode.href = './css/dark.css';
         if(bodyId === 'index') photo.src = './images/balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Basic Theme';
-        displayMode.innerHTML = '&#9680;'; 
+        displayMode.innerHTML = 'dark_mode'; 
     } else if(localStorage.getItem('theme') === 'dark'){
         localStorage.setItem('theme', 'basic');
         mode.href = './css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
-        displayMode.innerHTML = '&#9728;';
+        displayMode.innerHTML = 'light_mode';
     } else {
         localStorage.setItem('theme', 'basic');
         mode.href = './css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
-        displayMode.innerHTML = '&#9728;';
+        displayMode.innerHTML = 'light_mode';
     }
 });

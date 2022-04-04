@@ -129,7 +129,7 @@ header{
 }*/
 .image-link-menu a{
     text-decoration: none;
-    color: #000;
+    /*color: #000;*/
 }
 /*.image-link-menu img{
     padding-top: 0.6em;
@@ -142,21 +142,21 @@ header{
     /*width: 1.35em;*/
     /*height: 1.35em;*/
     /*display: inline-block;*/
-    cursor: pointer;
-    font-size: 2.3em;
-    padding-right: 0.5em;
+    /*cursor: pointer;*/
+    /*font-size: 5em;*/
+    padding-right: 1em;
     /*font-weight: bold;*/
     user-select: none;
 }
-/*.image-link-menu #display-mode{
-    /*padding-top: 0.6em;*/
+.image-link-menu #display-mode{
+    /*padding-top: 0.35em;*/
     /*width: 1.35em;*/
     /*height: 1.35em;*/
-    /*display: inline-block;
+    /*display: inline-block;*/
     cursor: pointer;
-    font-size: 2.3em;*/
+    font-size: 1.9em;
     /*font-weight: bold;*/
-/*}*/
+}
 .menu{
     /*position: relative;*/
     /*height: 4em;*/
@@ -182,7 +182,7 @@ header{
 .menu #menu-list{
     /*position: relative;*/
     position: absolute;
-    top: 3.35em;
+    top: 2.9em;
     display: none;
     right: 0.5em;
     width: 10.5em;
@@ -227,6 +227,14 @@ header{
     padding-right: 0.8em;
     cursor: pointer;
 }*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /*background-color: #f3997b;*/
+}
 .description{
     display: flex;
     justify-content: center;
@@ -257,14 +265,6 @@ header{
     box-sizing: border-box;
     padding: 14px;
 }
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    /*background-color: #f3997b;*/
-}
 .synopsis{
     width: 600px;
     box-sizing: border-box;
@@ -280,6 +280,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-bottom: 2px;
 }
 .page{
     width: 190px;
@@ -298,7 +299,7 @@ main{
     padding-bottom: 120px;
     width: 600px;
     padding-top: 45px;
-    margin: 2px 0;
+    margin-bottom: 2px;
 }
 .contact div{
     display: flex;
@@ -313,9 +314,9 @@ section a{
     text-decoration: none;
     /*color: black;*/
 }
-section a:hover{
-    color: #0000007f;
-}
+/*section a:hover{*/
+    /*color: #0000007f;*/
+/*}*/
 .contact-mail a{
     margin-top: 0.3em;
 }
@@ -406,8 +407,13 @@ footer p #lang-en:hover{
         width: 100%;
     }
     .heading-div{
+        position: relative;
         width: 100%;
         height: auto;
+    }
+    main{
+        position: relative;
+        top: 0;
     }
     /*.heading-div img{
         width: 1.5em;
@@ -425,44 +431,44 @@ footer p #lang-en:hover{
         /*top: -0.1em;*/
         /*margin-top: 0;*/
     /*}*/
-    .menu #menu-list{
-        top: 3.6em;
+    /*.menu #menu-list{*/
+        /*top: 2.9em;*/
         /*width: 10.5em;*/
-        right: 0.5em;
-    }
+        /*right: 0.5em;*/
+    /*}*/
     /*.menu li{*/
         /*margin-right: 0;*/
         /*height: auto;*/
     /*}*/
-    .description{
+    /*.description{*/
         /*background-color: white;*/
-        position: relative;
-        top: 0.8em;
-    }
+        /*position: relative;*/
+        /*top: 1em;*/
+    /*}*/
     .image-article img{
         width: 100%;
-        position: relative;
-        /*top: 0.5em;*/
+        /*position: relative;*/
+        /*top: 1em;*/
     }
     .synopsis{
         width: 100%;
-        position: relative;
-        top: 1em;
+        /*position: relative;*/
+        /*top: 1em;*/
     }
     .pages{
         width: 100%;
-        position: relative;
-        top: 1em;
+        /*position: relative;*/
+        /*top: 1em;*/
     }
     .contact{
         width: 100%;
-        position: relative;
-        top: 1em;
+        /*position: relative;*/
+        /*top: 1em;*/
     }
     footer{
         position: relative;
         width: 100%;
-        top: 1em;
+        top: 0;
         /*height: 1.5em;*/
     }
     footer p{
@@ -470,43 +476,20 @@ footer p #lang-en:hover{
     }
 }
 @media screen and (max-width: 540px){
-    .menu #menu-list{
-        top: 4.5em;
+    /*.image-link-menu #display-mode{*/
+        /*width: 1.35em;*/
+        /*height: 1.35em;*/
+        /*padding-right: 12px;*/
+        /*padding-top: 0.25em;*/
+        /*font-size: 1.8em;*/
+    /*}*/
+    /*.menu #menu-list{*/
+        /*top: 4.5em;*/
         /*width: 10.5em;*/
         /*right: 0.5em;*/
-    }
-    .description{
-        /*background-color: white;*/
-        position: relative;
-        top: 2.4em;
-    }
-    .image-article img{
-        /*width: 100%;*/
-        position: relative;
-        /*top: 0.5em;*/
-    }
-    .synopsis{
-        /*width: 100%;*/
-        position: relative;
-        top: 2.5em;
-    }
-    .pages{
-        /*width: 100%;*/
-        position: relative;
-        top: 2.5em;
-    }
-    .contact{
-        /*width: 100%;*/
-        position: relative;
-        top: 2.5em;
-    }
-    footer{
-        position: relative;
-        /*width: 100%;*/
-        top: 2.5em;
-        /*height: 1.5em;*/
-    }
-    /*footer p{*/
-        /*min-width: 100%;*/
     /*}*/
+    main{
+        position: relative;
+        top: 0;
+    }
 }

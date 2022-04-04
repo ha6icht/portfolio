@@ -9,10 +9,209 @@
         <title>Portfolio von Rolf Karlen | Home</title>
         <link href="./images/favicon.ico" rel="icon">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link id="stylesheet" href="./css/app-styles.css" rel="stylesheet">
-        <link id="mode" href="./css/basic.css" rel="stylesheet">
+        <link id="stylesheet" href="./app-styles.css" rel="stylesheet">
+        <link id="mode" href="./basic.css" rel="stylesheet">
+        <!--<link id="mode" href="./light.css" rel="stylesheet">-->
         <!--<link id="mode" href="./enlightenment.css" rel="stylesheet">-->
         <!--<link id="mode" href="./dark.css" rel="stylesheet">-->
+        <script src="./cookieconsent/cookieconsent.js"></script>
+        <script>
+            window.CookieConsent.init({
+                // More link URL on bar
+                modalMainTextMoreLink: null,
+                // How lond to wait until bar comes up
+                barTimeout: 300,
+                // Look and feel
+                theme: {
+                    barColor: '#2C7CBF',
+                    barTextColor: '#FFF',
+                    barMainButtonColor: '#FFF',
+                    barMainButtonTextColor: '#2C7CBF',
+                    modalMainButtonColor: '#4285F4',
+                    modalMainButtonTextColor: '#FFF',
+                },
+                language: {
+                    current: 'de',
+                    locale: {
+                        en: {
+                            barMainText: 'This website uses cookies to ensure you get the best experience on our website.',
+                            barLinkSetting: 'Cookie Settings',
+                            barBtnAcceptAll: 'Accept all cookies',
+                            modalMainTitle: 'Cookie settings',
+                            modalMainText: 'Cookies are small piece of data sent from a website and stored on the user\'s computer by the user\'s web browser while the user is browsing. Your browser stores each message in a small file, called cookie. When you request another page from the server, your browser sends the cookie back to the server. Cookies were designed to be a reliable mechanism for websites to remember information or to record the user\'s browsing activity.',
+                            modalBtnSave: 'Save current settings',
+                            modalBtnAcceptAll: 'Accept all cookies and close',
+                            modalAffectedSolutions: 'Affected solutions:',
+                            learnMore: 'Learn More',
+                            on: 'On',
+                            off: 'Off'
+                        },
+                        hu: {
+                            barMainText: 'Ez a weboldal Sütiket használ a jobb felhasználói élmény érdekében.',
+                            barLinkSetting: 'Süti beállítások',
+                            barBtnAcceptAll: 'Minden süti elfogadása',
+                            modalMainTitle: 'Süti beállítások',
+                            modalMainText: 'A HTTP-süti (általában egyszerűen süti, illetve angolul cookie) egy információcsomag, amelyet a szerver küld a webböngészőnek, majd a böngésző visszaküld a szervernek minden, a szerver felé irányított kérés alkalmával. Amikor egy weboldalt kérünk le a szervertől, akkor a böngésző elküldi a számára elérhető sütiket. A süti-ket úgy tervezték, hogy megbízható mechanizmust biztosítsanak a webhelyek számára az információk megőrzésére vagy a felhasználók böngészési tevékenységének rögzítésére.',
+                            modalBtnSave: 'Beállítások mentése',
+                            modalBtnAcceptAll: 'Minden Süti elfogadása',
+                            modalAffectedSolutions: 'Mire lesz ez hatással:',
+                            learnMore: 'Tudj meg többet',
+                            on: 'Be',
+                            off: 'Ki'
+                        },
+                        de: {
+                            barMainText: 'Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten.',
+                            barLinkSetting: 'Cookie-Einstellungen',
+                            barBtnAcceptAll: 'Alle akzeptieren',
+                            modalMainTitle: 'Cookie-Einstellungen',
+                            modalMainText: 'Cookies sind kleine Datenelemente, die von einer Website gesendet und vom Webbrowser des Benutzers auf dem Computer des Benutzers gespeichert werden, während der Benutzer surft. Ihr Browser speichert jede Nachricht in einer kleinen Datei namens Cookie. Wenn Sie eine weitere Seite vom Server anfordern, sendet Ihr Browser das Cookie an den Server zurück. Cookies wurden als zuverlässiger Mechanismus für Websites entwickelt, um Informationen zu speichern oder die Browsing-Aktivitäten des Benutzers aufzuzeichnen.',
+                            modalBtnSave: 'Einstellungen speichern',
+                            modalBtnAcceptAll: 'Alle akzeptieren',
+                            modalAffectedSolutions: 'Betroffene Lösungen: ',
+                            learnMore: 'Erfahren Sie mehr',
+                            on: 'An',
+                            off: 'Aus'
+                        }
+                    }
+                },
+              // List all the categories you want to display
+                categories: {
+                    // Unique name
+                    // This probably will be the default category
+                    necessary: {
+                        // The cookies here are necessary and category cant be turned off.
+                        // Wanted config value  will be ignored.
+                        needed: true,
+                        // The cookies in this category will be let trough.
+                        // This probably should be false if not necessary category
+                        wanted: true,
+                        // If the checkbox is on or off at first run.
+                        checked: true,
+                        // Language settings for categories
+                        language: {
+                            locale: {
+                                en: {
+                                    name: 'Strictly Necessary Cookies',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                hu: {
+                                    name: 'Szükséges sütik',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                de: {
+                                    name: 'Notwendige',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                }
+                            }
+                        }
+                    },
+                    other: {
+                        // The cookies here are necessary and category cant be turned off.
+                        // Wanted config value  will be ignored.
+                        needed: false,
+                        // The cookies in this category will be let trough.
+                        // This probably should be false if not necessary category
+                        wanted: false,
+                        // If the checkbox is on or off at first run.
+                        checked: false,
+                        // Language settings for categories
+                        language: {
+                            locale: {
+                                en: {
+                                    name: 'Other',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                hu: {
+                                    name: 'Szükséges sütik',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                de: {
+                                    name: 'Andere',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                }
+                            }
+                        }
+                    },
+                    analytics: {
+                        // The cookies here are necessary and category cant be turned off.
+                        // Wanted config value  will be ignored.
+                        needed: false,
+                        // The cookies in this category will be let trough.
+                        // This probably should be false if not necessary category
+                        wanted: false,
+                        // If the checkbox is on or off at first run.
+                        checked: false,
+                        // Language settings for categories
+                        language: {
+                            locale: {
+                                en: {
+                                    name: 'Analytics',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                hu: {
+                                    name: 'Szükséges sütik',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                },
+                                de: {
+                                    name: 'Analytik',
+                                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                                }
+                            }
+                        }
+                    }
+                },
+                // List actual services here
+                services: {
+                    // Unique name
+                    googleAnalytics: {
+                        // Existing category Unique name
+                        // This example shows how to block Google Analytics
+                        category: 'analytics',
+                        // Type of blocking to apply here.
+                        // This depends on the type of script we are trying to block
+                        // Can be: dynamic-script, script-tag, wrapped, localcookie
+                        type: 'dynamic-script',
+                        // Only needed if "type: dynamic-script"
+                        // The filter will look for this keyword in inserted scipt tags
+                        // and block if match found
+                        search: 'analytics',
+                        // List of known cookie names or Regular expressions matching
+                        // cookie names placed by this service.
+                        // These willbe removed from current domain and .domain.
+                        cookies: [
+                            {
+                                // Known cookie name.
+                                name: '_gid',
+                                // Expected cookie domain.
+                                domain: `.${window.location.hostname}`
+                            },
+                            {
+                                // Regex matching cookie name.
+                                name: /^_ga/,
+                                domain: `.${window.location.hostname}`
+                            }
+                        ],
+                        language: {
+                            locale: {
+                                en: {
+                                    name: 'Google Analytics'
+                                },
+                                hu: {
+                                    name: 'Google Analytics'
+                                },
+                                de: {
+                                    name: 'Google Analytics',
+                                    description: 'Diese Cookies sind für Analyse der Webseite.',
+                                    cookies: '_gid, _ga'
+                                }
+                            }
+                        }
+                        
+                    },
+                }
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XXWKMZHFP"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -63,7 +262,7 @@
                                 <!--<a href="./index.html"><div class="left-arrow" title="Zur&uuml;ck zur Hauptseite.">&lt;</div></a>-->
                             </div>
                             <div class="menu">
-                                <span id="menu-list-open">&#9776;</span>
+                                <div id="menu-list-open" class="material-icons"><!--&#9776;-->menu</div>
                                 <ul id="menu-list">
                                     <a href="https://rolfkarlen.ch" title="Zum wissbegierigen Blog"><li class="first-item"><span>Blog</span></li></a>
                                     <a href="./index.html" title="Zum Portfolio"><li id="a-index"><span>Portfolio</span></li></a>

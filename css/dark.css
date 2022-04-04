@@ -1,5 +1,12 @@
 body{
     background-color: #262B37;
+    color: #d4d4d4;
+}
+a{
+    color: #d4d4d4;
+}
+a:hover{
+    color: #fff;
 }
 #index #a-index{
     background-color: #4E5A61;
@@ -19,11 +26,8 @@ body{
 #menu-list{
     background-color: #4E5A61c4;
 }
-li:hover{
+a li:hover{
     background-color: #4E5A61;
-}
-.mode{
-    padding-top: 0.15em;
 }
 .image-article{
     background-color: #433F3F;   
@@ -34,16 +38,16 @@ li:hover{
 .table{
     background-color: #36465E;
 }
-/*main{
-    background-color: #f3997b;
-}*/
-.left{
+.pages{
+    background-color: #262B37;
+}
+.page.left{
     background-color:  #433F3F;
 }
-.middle{
+.page.middle{
     background-color: #414349;
 }
-.right{
+.page.right{
     background-color: #36465E;
 }
 .heading{
@@ -55,56 +59,56 @@ li:hover{
 section{
     background-color: #4E5A61;
 }
-section a{
-    color: black;
-}
+/*section a{*/
+    /*color: black;*/
+/*}*/
 footer{
     background-color: #36465E;
 }
-footer p{
-    color: #000;
-}
 @media screen and (max-width: 820px){
     .description{
-        background-color: #4E5A61;
+        background-color: #262B37;
     }
 }
 .heading-div{
     font-weight: 500;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 #menu-list a{
     font-weight: 300;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .table{
     font-weight: 300;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .table strong{
     font-weight: 400;
 }
 .synopsis{
     font-weight: 300;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .page p{
     font-weight: 300;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .page h3{
     font-weight: 500;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .contact h3{
     font-weight: 500;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
 .contact a{
     font-weight: 300;
-    color: #ffffffa4;
+    /*color: #d4d4d4;*/
 }
+/*.contact a:hover{*/
+    /*color: #d9d9d9;*/
+/*}*/
 footer p{
     font-weight: 300;
-    color: #ffffffa4
+    /*color: #d4d4d4;*/
 }
