@@ -6,18 +6,18 @@ const bodyId = document.getElementById('index')
 const changeTheme = () => {
     //console.log('Inside changeTheme()')
     if(localStorage.getItem('theme') === 'basic'){
-        mode.href = './css/basic.css';//'./enlightenment.css';
+        mode.href = './components/css/basic.css';//'./enlightenment.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
         displayMode.innerHTML = 'light_mode';
     } else if(localStorage.getItem('theme') === 'dark'){
-        mode.href = './css/dark.css';
+        mode.href = './components/css/dark.css';
         if(bodyId === 'index') photo.src = './images/balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Basic Theme';
         displayMode.innerHTML = 'dark_mode'; 
     } else {
         localStorage.setItem('theme', 'basic');
-        mode.href = './css/basic.css';
+        mode.href = './components/css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
         displayMode.innerHTML = 'light_mode';
@@ -29,19 +29,19 @@ changeTheme();
 displayMode.addEventListener('click', () => {
     if(localStorage.getItem('theme') === 'basic'){
         localStorage.setItem('theme', 'dark');
-        mode.href = './css/dark.css';
+        mode.href = './components/css/dark.css';
         if(bodyId === 'index') photo.src = './images/balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Basic Theme';
         displayMode.innerHTML = 'dark_mode'; 
     } else if(localStorage.getItem('theme') === 'dark'){
         localStorage.setItem('theme', 'basic');
-        mode.href = './css/basic.css';
+        mode.href = './components/css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
         displayMode.innerHTML = 'light_mode';
     } else {
         localStorage.setItem('theme', 'basic');
-        mode.href = './css/basic.css';
+        mode.href = './components/css/basic.css';
         if(bodyId === 'index') photo.src = './images/ich_balmkirchli_adjusted.jpg';
         displayMode.title = 'Wechseln zu Dark Theme';
         displayMode.innerHTML = 'light_mode';
