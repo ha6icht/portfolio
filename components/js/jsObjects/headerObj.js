@@ -1,5 +1,6 @@
 const header = {
     language:{
+        setLanguage: 'deCH',
         deCH:{
             headerTitleHome: "Portfolio von Rolf Karlen",
             headerTitleBeispiele: 'Beispiele-Website',
@@ -9,8 +10,19 @@ const header = {
             displayModeDarkTitle: "Wechseln zu Basic Theme"
         },
         enUS:{
-
+            headerTitleHome: "Portfolio by Rolf Karlen",
+            headerTitleBeispiele: 'Example Website',
+            headerTitleMenuApp: 'menuApp',
+            headerTitleMulti: 'Multiplication Table', 
+            displayModeLightTitle: "Change to Dark Theme",
+            displayModeDarkTitle: "Change to Basic Theme"
         }
+    },
+    url:{
+        modeHrefBasic: './components/css/basic.css',
+        modeHrefDark: './components/css/dark.css',
+        photoSrcBasic: './components/images/ich_balmkirchli_adjusted.jpg',
+        photoSrcDark: './components/images/balmkirchli_adjusted.jpg'
     },
     themeMode:{
         displayModeLight: "light_mode",
