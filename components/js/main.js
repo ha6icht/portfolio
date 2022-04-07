@@ -1,4 +1,4 @@
-import header from '../languagePacks/language.js';
+import header from '../languagePacks/headerObj.js';
 
 const displayMode = document.getElementById('display-mode');
 const mode = document.getElementById('mode');
