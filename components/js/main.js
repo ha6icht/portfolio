@@ -1,4 +1,4 @@
-import header from '../jsObjects/headerObj.js';
+import header from './jsObjects/headerObj.js';
 
 const displayMode = document.getElementById('display-mode');
 const mode = document.getElementById('mode');
