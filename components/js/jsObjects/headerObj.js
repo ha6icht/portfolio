@@ -3,7 +3,7 @@ const header = {
         setLanguage: 'deCH',
         deCH:{
             headerTitleHome: "Portfolio von Rolf Karlen",
-            headerTitleBeispiele: 'Beispiele-Website',
+            headerTitleExamples: 'Beispiele-Website',
             headerTitleMenuApp: 'menuApp',
             headerTitleMulti: 'Multiplication Table', 
             displayModeLightTitle: "Wechseln zu Dark Theme",
@@ -11,7 +11,7 @@ const header = {
         },
         enUS:{
             headerTitleHome: "Portfolio by Rolf Karlen",
-            headerTitleBeispiele: 'Example Website',
+            headerTitleExamples: 'Example Website',
             headerTitleMenuApp: 'menuApp',
             headerTitleMulti: 'Multiplication Table', 
             displayModeLightTitle: "Change to Dark Theme",
