@@ -11,7 +11,7 @@ const header = {
         },
         enUS:{
             headerTitleHome: "Portfolio by Rolf Karlen",
-            headerTitleExamples: 'Example Website',
+            headerTitleExamples: 'Examples Website',
             headerTitleMenuApp: 'menuApp',
             headerTitleMulti: 'Multiplication Table', 
             displayModeLightTitle: "Change to Dark Theme",
