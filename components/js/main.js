@@ -69,4 +69,4 @@ displayMode.addEventListener('click', () => {
     return response.json();
 }).then(data=>console.log(data.header.class.heading))*/
 //const myJSON = JSON.parse(url);
-console.log(header.class.heading);
+//console.log(header.class.heading);
